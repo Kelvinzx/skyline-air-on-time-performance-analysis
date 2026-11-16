@@ -1,7 +1,23 @@
 # Skyline Air: On-Time Performance Analysis
 <img width="1207" height="256" alt="image" src="https://github.com/user-attachments/assets/e299fce5-fe7e-428e-8016-fe64a46a5b26" />
 
+## Table of Contents
 
+1. [Project Overview](#project-overview)
+2. [Business Problem](#business-problem)
+3. [Project Objectives](#project-objectives)
+4. [Dataset Overview](#dataset-overview)
+5. [Tools and Techniques](#tools-and-techniques)
+6. [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+7. [Methodology](#methodology)
+8. [Key Business Questions](#key-business-questions)
+9. [Analysis and Key Findings](#analysis-and-key-findings)
+10. [Business Insights](#business-insights)
+11. [Recommendations](#recommendations)
+12. [Dashboard Preview](#dashboard-preview)
+13. [Project Files](#project-files)
+14. [Limitations](#limitations)
+15. [Conclusion](#conclusion)
 
 ## Project Overview
 
@@ -29,7 +45,7 @@ This project uses data analysis to identify operational weaknesses and provide e
 - Identify the most common causes of flight delays.
 - Recommend practical improvements to airline operations.
 
-## Dataset Description
+## Dataset Overview
 
 The project contains 1,012 raw flight records, which were reduced to 1,000 unique flight records after cleaning.
 
@@ -49,7 +65,7 @@ The dataset includes information such as:
 - Flight status
 - Distance travelled
 
-## Tools and Technologies
+## Tools and Techniques
 
 - Microsoft Excel
 - Excel Formulas and Functions
@@ -59,7 +75,7 @@ The dataset includes information such as:
 - Pivot Charts
 - Interactive Dashboard
 
-## Business Questions
+## Key Business Questions
 
 The analysis investigated the following questions:
 
@@ -89,7 +105,7 @@ Key activities included:
 
 The original raw dataset was preserved separately from the cleaned dataset.
 
-## Analysis Methodology
+## Methodology
 
 The analysis used a 15-minute departure tolerance.
 
@@ -103,7 +119,7 @@ Performance was evaluated using verified departure-delay values.
 
 The analysis included monthly trends, airport comparisons, weekday performance, time-of-day analysis, aircraft performance and delay-cause analysis.
 
-## Key Findings
+## Analysis and Key Findings
 
 The analysis produced the following results:
 
