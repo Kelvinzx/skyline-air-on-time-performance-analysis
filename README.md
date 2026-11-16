@@ -190,6 +190,26 @@ This chart highlights the recorded causes of flight delays and helps identify th
 | [Excel Workbook](https://github.com/Kelvinzx/skyline-air-on-time-performance-analysis/blob/main/Skyline_Air_Flight_Data.xlsx) | Contains the raw data, cleaned data, analysis and dashboard |
 | [Project Report](https://github.com/Kelvinzx/skyline-air-on-time-performance-analysis/blob/main/Skyline_Air_Final_Presentation%20(1).pptx) | Documents the business problem, methodology, findings, insights and recommendations |
 
+## Limitations
+
+Although the data was cleaned and validated, some limitations remained and should be considered when interpreting the findings.
+
+1. **Missing Actual Departure Times:** 22 completed flights had no actual departure time. These flights were classified as delayed by the workbook formula, which may have understated the reported on-time performance. The reported OTP remains 73.03% to stay consistent with the submitted workbook. Based on the originally recorded delays, the adjusted OTP would be approximately 74.9%.
+
+2. **Missing Delay Causes:** 143 delay-cause fields were blank. This limited the ability to identify the recorded reasons behind every flight's performance.
+
+3. **Missing Arrival Delay Information:** Arrival delay data was unavailable for 43 flights. Therefore, the analysis focused on departure performance rather than arrival on-time performance.
+
+4. **Limited Dataset Period:** The analysis covered one year and approximately 1,000 flights. Some airports had relatively small flight counts, meaning a few flights could noticeably affect their delay rates.
+
+5. **Inconsistent Labels:** Some airport codes and delay-cause labels still contained differences in capitalisation or trailing spaces. These did not change the reported PivotTable results but should be standardised before future analysis.
+
+6. **Correlation Does Not Prove Causation:** Differences in delay rates across aircraft types and other categories show associations, not necessarily direct causes.
+
+7. **Dashboard Accuracy:** Two dashboard charts (Delay Rate by Origin and Monthly OTP Trend) did not match their corresponding PivotTable results. The Cleaning_Log management priorities table also contained incorrect entries. The report's findings were based on the correct PivotTable figures, and these workbook items should be corrected before the dashboard is used for management decisions.
+
+Despite these limitations, the project provides useful insights into Skyline Air's departure performance and highlights areas where operational improvements and better data collection are needed.
+
 ## Conclusion
 
 The project demonstrates how Microsoft Excel can be used to clean operational data, analyse business performance, develop dashboards and generate actionable insights.
