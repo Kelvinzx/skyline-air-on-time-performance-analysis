@@ -171,7 +171,7 @@ This chart highlights the recorded causes of flight delays and helps identify th
 
 | File | Description |
 |---|---|
-| Excel Workbook | Contains the raw data, cleaned data, analysis and dashboard |
+| [Excel Workbook](https://github.com/Kelvinzx/skyline-air-on-time-performance-analysis/blob/main/Skyline_Air_Flight_Data.xlsx) | Contains the raw data, cleaned data, analysis and dashboard |
 | Project Report | Documents the business problem, methodology, findings, insights and recommendations |
 | Screenshots | Visual previews of the Excel dashboard and selected analysis charts |
 
